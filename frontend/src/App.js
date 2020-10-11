@@ -1,10 +1,13 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
+import ExampleApi from './ExampleApi';
 
 function App() {
   return (
-    <div className="App">
+    <Container className="App">
      <h1> Barebone Project Manager </h1> 
-    </div>
+     <ExampleApi/>
+    </Container>
   );
 }
 
