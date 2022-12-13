@@ -8,7 +8,7 @@
     "start": "concurrently \"cd backend && npm run start-watch\" \"cd frontend && npm start\""
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "proxy": "http://localhost:8000",
   "devDependencies": {
